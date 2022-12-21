@@ -5,8 +5,6 @@
 - Git
 - .NET SDK 7.0
 
-The Visual Studio Code instructions use the .NET CLI for ASP.NET Core development functions such as project creation. You can follow these instructions on macOS, Linux, or Windows and with any code editor. Minor changes may be required if you use something other than Visual Studio Code.
-
 ## Clone repository
 
 To clone the repository in your machine, go to git bash or local cmd prompt and type the following command:
