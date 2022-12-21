@@ -33,6 +33,6 @@ To run the tests, navigate to the *TruckDiscovery.Tests* directory and type the 
 dotnet test
 ```
 
-###Final considerations
+##Final considerations
 
 The project was made within 2 days, it is ORM based and it makes use of Migrations, as well as Nunit for unit tests.
