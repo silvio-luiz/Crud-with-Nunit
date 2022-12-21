@@ -1,0 +1,31 @@
+﻿@page
+@model TruckDiscovery.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Truck Statistics";
+}
+
+<h2>Truck Statistics</h2>
+
+<table>
+    <tr>
+        <th>
+            Fabrication Yr.
+        </th>
+        <th>
+            Quantity
+        </th>
+    </tr>
+
+    @foreach (var item in Model.Trucks)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FabYear)
+            </td>
+            <td>
+                @item.TruckCount
+            </td>
+        </tr>
+    }
+</table>
